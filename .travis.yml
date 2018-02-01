@@ -1,0 +1,5 @@
+language: objective-c
+before_install:
+	-brew install ios_sim
+	-gem install ios_ci
+	cd TravisIOS
